@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <title>WWW.ShashiLakra.com</title>
+    <title>www.shashioraon.com</title>
     <style>
       * {
         margin: 0;
@@ -36,12 +36,62 @@
         min-width: 100%;
         max-height: 280px;
       } */
+/* ----------------------------------------responsship -------------------------------------------------- */
+      /* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 390px ) {
+   .carousel-item img {
+        height: 50vh;
+        width: 60%;
+      }
+      
+    }
+@media (min-width: 576px) {
+   .carousel-item img {
+        height: 75vh;
+        width: 60%;
+      }
+    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel-item img {
+        height: 85vh;
+        width: 60%;
+      }
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .carousel-item img {
+        height: 93vh;
+        width: 60%;
+      }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .carousel-item img {
+        height: 93vh;
+        width: 60%;
+      }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .carousel-item img {
+        height: 100vh;
+        width: 60%;
+      }
+ }
     </style>
   </head>
   <body>
     <!-- navbar --START-- from here -->
     <navbar>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button
@@ -64,13 +114,10 @@
                 <a class="nav-link active" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#mySkills">My Skills</a>
+                <a class="nav-link active" href="#gallry">Gallry</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Gallry</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Cantact</a>
+                <a class="nav-link active" href="#cantact">Cantact</a>
               </li>
             </ul>
           </div>
@@ -111,7 +158,7 @@
                     aria-label="Slide 3"
                   ></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner display-6">
                   <div class="carousel-item active" data-bs-interval="1000">
                     <img
                       src="a.png"
@@ -119,10 +166,9 @@
                       alt="forest"
                     />
                     <div class="carousel-caption d-md-block">
-                      <h5>First slide label</h5>
+                      <!-- <h5> I AM Shashi</h5> -->
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
+                        COLLEGE STUDENT
                       </p>
                     </div>
                   </div>
@@ -133,10 +179,9 @@
                       alt="laptop"
                     />
                     <div class="carousel-caption d-md-block">
-                      <h5>Second slide label</h5>
+                      <!-- <h5>I AM Shashi</h5> -->
                       <p>
-                        Some representative placeholder content for the second
-                        slide.
+                        WEB DEVELOPER
                       </p>
                     </div>
                   </div>
@@ -147,10 +192,9 @@
                       alt="lifestyle"
                     />
                     <div class="carousel-caption d-md-block">
-                      <h5>Third slide label</h5>
+                      <!-- <h5>I AM Shashi</h5> -->
                       <p>
-                        Some representative placeholder content for the third
-                        slide.
+                        FROM RANCHI,JHARKAND
                       </p>
                     </div>
                   </div>
@@ -200,14 +244,10 @@
               </figure>
             </dvi>
             <div
-              class="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-start"
-            >
-              <h1>Shashi Lakra</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Commodi odit, sequi excepturi quaerat non quae nulla earum
-                officia mollitia voluptatibus minus perferendis quas
-                consequuntur, ipsa magni laboriosam enim, nam sit.
+              class="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+              <h1 class="display-3" > I'm Shashi</h1>
+              <p class="fw-light">
+                Now, i am student of BCA from marwari college ranchi. I have done 3 months's Complete Web Devlopment Course from Kalam Academy DIGITAL MARKETING Institute Agency Ranchi. Also I a Web Developer.
               </p>
               <button type="button" class="btn btn-outline-info">
                 Download CV
@@ -215,42 +255,149 @@
             </div>
           </div>
         </div>
+              <!-- -----education-------mySkills--------work Experience-------SECTION------- -->
+   
+         <div class="container">
+          <div class="row text-center">
+            <!-- Education -->
+            <div class="col-4 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="text-center">
+                <h4 class="display-6"> Education</h4>
+                <hr class="w-100 mx-auto" />
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title display-5">High School Completed</h2>
+                <p class="card-text fs-4 fw-light" >Jatra Tana Bhagat Vidya Mandir Bishunpur, Gumla, Jharkhand.</p>
+                <p class="card-text fs-7 bg-warning text-dark rounded text-center">IN 2020</p>
+              </div>
+              <div class="card-body ">
+                <h2 class="card-title display-5">Intermediate Completed</h2>
+                <p class="card-text fs-4 fw-light">St.Xavier's College, Ranchi, Jharkhand.</p>
+                <p class="card-text fs-7 bg-warning text-dark rounded text-center">IN 2022</p>
+              </div>
+            </div>
+            <!-- mySkills -->
+            <div class="col-4 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="text-center">
+                <h4 class="display-6">Programing Skills</h4>
+                <hr class="w-100 mx-auto" />
+              </div>
+              <p> <h3> HTML</h3> </p>
+              <div class=" bg-info rounded " >
+                <div class="row bg-success rounded align-items-center justify-content-center " style=" height: 38px; width: 95%;">95%</div>
+              </div>
+              <p> <h3> CSS</h3> </p>
+              <div class=" bg-info rounded" >
+                <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 75%;">75%</div>
+              </div>
+              <p> <h3> JAVASCRIPT</h3> </p>
+              <div class=" bg-info rounded" >
+                <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 80%;">80%</div>
+              </div>
+              <p> <h3> PHP</h3> </p>
+              <div class=" bg-info rounded" >
+                <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 50%;">50%</div>
+              </div>
+              <p> <h3> C/C++</h3> </p>
+              <div class=" bg-info rounded" >
+                <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 90%;">90%</div>
+              </div>
+            </div>
+            <!-- Work Experience -->
+            <div class="col-4 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="text-center">
+                <h4 class="display-6">Work Experience</h4>
+                <hr class="w-100 mx-auto" />
+              </div>
+              <div class="card-body">
+                <h2 class="card-title display-5">STUDENT</h2>
+                <p class="card-text fs-7  bg-warning text-dark rounded text-center">PRESENT</p>
+                <p class="card-text fs-4 fw-light">Marwari College Ranchi .</p>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title display-5">WEB DEGINING</h2>
+                <p class="card-text fs-7 bg-warning text-dark rounded text-center">SINCE 2021-2022</p>
+                <p class="card-text fs-4 fw-light">SYSROOT LTD / Kishoerganj, Road No.4 Ranchi Jharkhand .</p>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <div class="container my-5">
+          <hr>
+          <div class="row text-center display-6">
+            <div class="col-3">
+              <p>2+</p>
+              Partner
+            </div>
+            <div class="col-3">
+              <p>5+</p>
+              Prjects Done
+            </div>
+            <div class="col-3">
+              <p>27+</p>
+            Happy clients
+            </div>
+            <div class="col-3">
+              <p>40+</p>
+              Meeting
+            </div>
+
+          </div>
+         </div>
       </section>
       <!-- about section END from here -->
-      <!-- mySkills section start  -->
-      <section id="mySkills" class="my-5 py-5">
-        <div class="text-center">
-          <h1 class="display-4">My Skills</h1>
+      <!--cantact section start  -->
+      <section id="cantact" class="my-5 py-5">
+        <!-- <div class="text-center">
+          <h1 class="display-4">Cantact</h1>
           <hr class="w-25 mx-auto" />
-        </div>
-        <div class="container">
-          <div class="row mx-2">
-            <p> <h3> HTML</h3> </p>
-            <div class=" bg-info rounded" >
-              <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 95%;">95%</div>
-            </div>
-            <p> <h3> CSS</h3> </p>
-            <div class=" bg-info rounded" >
-              <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 75%;">75%</div>
-            </div>
-            <p> <h3> JAVASCRIPT</h3> </p>
-            <div class=" bg-info rounded" >
-              <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 80%;">80%</div>
-            </div>
-            <p> <h3> PHP</h3> </p>
-            <div class=" bg-info rounded" >
-              <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 50%;">50%</div>
-            </div>
-            <p> <h3> C/C++</h3> </p>
-            <div class=" bg-info rounded" >
-              <div class="row bg-success rounded align-items-center justify-content-center" style=" height: 38px; width: 90%;">90%</div>
-            </div>
-            
-          </div>
-        </div>
+        </div> -->
+                <div class="container">
+                  <div class="row text-center">
+                    <div class="col-3 col-sm-12 col-md-6 col-lg-4 mt-5">
+                        <h4 class="display-6">References</h4>
+                        <hr>
+                       <p> Mr.Ayush Vikas Sir</p> 
+                       <p> SYSROOT IT LTD, Ranchi</p> 
+                       <p>Website : <a href="https://sysrootsolution.com">https://sysrootsolution.com</a></p> 
+                    </div>
+                    <div class="col-6 col-sm-12 col-md-6 col-lg-4 mt-5">
+                      <div><h4 class="display-6" >Cantact Me</h4></div>
+                      <hr>
+                      <p> Location : Harmu housing colony argora ranchi</p>
+                      <p>Email : <a href="shashioraon5114@gmail.com">shashioraon5114@gmail.com</a> </p>
+                      <p>Phone : +91 6200956501</p>
+                      <p>Github : <a href="https://github.com/SL87tb">https://github.com/SL87tb</a></p>
+
+                     
+                    </div>
+                    <div class="col-3 col-sm-12 col-md-6 col-lg-4 mt-5">
+                      <div>
+                        <h4 class="display-6">Interests</h4>
+                        
+                        <hr>
+                        <p> Music</p>
+                        <p> Travelling </p>
+                        <p> Web Developer</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>                  
+        
       </section>
-      <!-- mySkills section end  -->
+      <!-- cantact section end  -->
     </main>
+    <footer class="bg-dark ">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 my-5">
+          <p class="text-white">Powered By ShashitOraon</p>
+        </div>
+      </div>
+      
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
